@@ -108,4 +108,4 @@ read_events_min <- function(game){
 
 library(rstudioapi)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-as.tbl(read_events_min('f24-8-2019-1059926-eventdetails.xml'))
+as.tbl(read_events_min('example/f24-8-2019-1059926-eventdetails.xml'))
